@@ -1,0 +1,135 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.top_container,.bottom_container {
+    margin: 50px auto;
+    padding: 25px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_container {
+    background-color: royalblue;
+}
+
+.bottom_container {
+    background: rgb(87, 108, 128);
+}
+
+.top_container .top_message , .bottom_message{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+}
+
+.bottom_message {
+    color: crimson;
+    border-color: crimson;
+}
+
+.top_heading , .bottom_heading{
+    font-size: 2.5rem; 
+    color: black;
+    margin: 10px 0px;
+}
+
+.top_container form {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.top_container input {
+    margin-bottom: 25px;
+    width: 100%;
+    height: 45px;
+    font-size: 2rem;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    text-indent: 10px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 8px 8px;
+    text-align: center;
+    color: whitesmoke;
+    border: 2px solid white;
+    text-transform: uppercase;
+    background-color: transparent;
+    width: 50%;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.top_container button:hover {
+    background: orange;
+    color: black;
+}
+
+.bottom_container button:hover {
+    background: crimson;
+    color: white;
+}
+
+.items_list {
+    margin: 10px 0px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.grocery_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px;
+    transition: all 0.5s;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.grocery_item:hover {
+    background: rgb(168, 160, 160);
+}
+
+.grocery_item_heading {
+    font-size: 1.5rem;
+    color: black;
+    padding-left: 5px;
+}
+
+.grocery_item_link {
+    color: rgb(114, 12, 12);
+    font-size: 1.5rem;
+    padding-right: 10px;
+}
+
+
+
+
+
+
